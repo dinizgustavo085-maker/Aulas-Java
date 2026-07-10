@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class primeiraaula {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String nome;
         int idade;
         float altura;
@@ -18,7 +18,7 @@ public class primeiraaula {
         idade = Integer.parseInt(entrada.nextLine());
 
         System.out.print("Digite sua altura: ");
-        altura = Integer.parseInt(entrada.nextLine());
+        altura = entrada.nextFloat();
 
         System.out.print("Digite seu nome: ");
         cargo = entrada.nextLine();
@@ -30,5 +30,6 @@ public class primeiraaula {
                 + "Sua idade e: " + idade + "\n" +
                 "Sua altura e: " + altura +
                 "\n" + "Seu cargo e : " + cargo + "\n"
-                + "Periodo e: " + período );
+                + "Periodo e: " + período);
     }
+}
