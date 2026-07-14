@@ -1,4 +1,4 @@
-package Atividade2;
+package atividades.atividade2;
 import java.util.Scanner;
 public class media {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package atvidade3;
+package atividades.atvidade3;
 import java.util.Scanner;
 
 public class saudacao {

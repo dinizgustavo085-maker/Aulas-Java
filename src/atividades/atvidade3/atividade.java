@@ -1,4 +1,4 @@
-package atvidade3;
+package atividades.atvidade3;
 
 import java.util.Scanner;
 
@@ -29,7 +29,6 @@ public class atividade {
 
         System.out.println("Metodo main");
 
-        imprimirsoma();
         int opcao = entrada.nextInt();
 
         if (comparacao(opcao)){ // esta comparando o metodo // metodo = função
