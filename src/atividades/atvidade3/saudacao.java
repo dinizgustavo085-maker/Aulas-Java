@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class saudacao {
     public static void main(String[] args){
+
         imprimisaudao();
     }
 
