@@ -28,6 +28,7 @@ public class cofre {
                 System.out.println("Senha errada!");
                 repeticao--;
             }
+
         }
 
         if (repeticao == 0) {
