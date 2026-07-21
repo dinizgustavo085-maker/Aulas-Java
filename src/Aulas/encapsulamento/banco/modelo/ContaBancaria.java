@@ -7,21 +7,19 @@ public class ContaBancaria {
     private String titular;
     private int numeroDaConta;
     private double saldo;
-    private int pessoa;
+    private static int contador = 1;
 
 
     // Contrustor dessa classe
-
-    public ContaBancaria(String titular, int numeroDaConta) {
+    public ContaBancaria(String titular) {
         this.titular = titular;
-        this.numeroDaConta = this.pessoa;
+        this.numeroDaConta = contador;
         this.saldo = 0.0;
-
-
+        contador++;
     }
 
     private int incremento(){
-        return pessoa += 1;
+        return contador += 1;
 
     }
 
@@ -30,10 +28,6 @@ public class ContaBancaria {
 
     public String getTitular() {
         return titular;
-    }
-
-    public void setTitular(String titular) {
-        this.titular = titular;
     }
 
     public void depositar(double valor){
@@ -54,4 +48,13 @@ public class ContaBancaria {
     private String acessartodososdados(){
         return this.titular;
     }
+    @Override
+    public String toString() {
+        return "ContaBancaria{" +
+                "titular='" + titular + '\'' +
+                ", numeroDaConta=" + numeroDaConta +
+                ", saldo=" + saldo +
+                '}';
+    }
+
 }
