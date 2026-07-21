@@ -1,7 +1,5 @@
-package atividades.Aulas;
-import java.sql.SQLOutput;
+package Aulas;
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 public class aula5 {
     public static void main(String[] args) {

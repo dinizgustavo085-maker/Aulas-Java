@@ -1,4 +1,4 @@
-package atividades.Aulas;
+package Aulas;
 
 public class aitividade4 {
     public static void main(String[] args){
