@@ -3,17 +3,12 @@ package Aulas.heranca.locomocao;
 public class Main {
     public static void main(String[] args) {
         Carro carro =  new Carro();
-        Moto moto = new Motocombustao();
+        Moto motoEletrica = new Motoeletrica();
+        Moto motoAcombustao = new Motocombustao();
 
-
-        carro.nomeVeiculo = "Corsa";
-        carro.ligar();
-        carro.cor = "Azul";
-        carro.ligarArCondicionado();
-
-        moto.cor = "Amarelo";
-        moto.puxarPezinho();
-
+        carro.getNomeVeiculo();
+        motoEletrica.ligar();
+        motoAcombustao.abastecer();
 
     }
 }

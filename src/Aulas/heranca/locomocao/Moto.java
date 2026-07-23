@@ -11,4 +11,8 @@ public class Moto extends Veiculo {
         System.out.println("Puxando pé da moto pra estacionar!");
     }
 
+    public void abastecer(){
+        System.out.println("moto abastecendo");
+    }
+
 }
